@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Homepage for the logged in user (Heisenberg) 1`] = `
+<App
+  isLoggedIn={true}
+  username="Rhomennik"
+>
+  <div
+    className="App"
+  >
+    <Home
+      tasks={
+        Array [
+          "8am - Adonisjs",
+          "12:30pm - Reactjs",
+          "15pm - Graphql",
+          "20pm - Apollo client & Server",
+        ]
+      }
+      username="Rhomennik"
+    >
+      <div>
+        <p>
+          Welcome, 
+          Rhomennik
+          !
+        </p>
+        <ul>
+          <li
+            key="0"
+          >
+            8am - Adonisjs
+          </li>
+          <li
+            key="1"
+          >
+            12:30pm - Reactjs
+          </li>
+          <li
+            key="2"
+          >
+            15pm - Graphql
+          </li>
+          <li
+            key="3"
+          >
+            20pm - Apollo client & Server
+          </li>
+        </ul>
+      </div>
+    </Home>
+  </div>
+</App>
+`;
+
+exports[`should render the Homepage for the logged in user without tasks 1`] = `
+<App
+  isLoggedIn={true}
+  username="Rhome"
+>
+  <div
+    className="App"
+  >
+    <Home
+      tasks={
+        Array [
+          "8am - Rever Tarefas (typora)",
+          "15pm - Comer ;)",
+        ]
+      }
+      username="Rhome"
+    >
+      <div>
+        <p>
+          Welcome, 
+          Rhome
+          !
+        </p>
+        <ul>
+          <li
+            key="0"
+          >
+            8am - Rever Tarefas (typora)
+          </li>
+          <li
+            key="1"
+          >
+            15pm - Comer ;)
+          </li>
+        </ul>
+      </div>
+    </Home>
+  </div>
+</App>
+`;
+
+exports[`should render the homepage for the non logged in user 1`] = `
+<App
+  isLoggedIn={false}
+  username={null}
+>
+  <div
+    className="App"
+  >
+    <p>
+      Hello, visitor. Sign in to continue.
+    </p>
+  </div>
+</App>
+`;
