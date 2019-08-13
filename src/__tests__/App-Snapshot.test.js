@@ -12,7 +12,7 @@ it("should render the homepage for the non logged in user", () => {
   expect(toJson(app)).toMatchSnapshot();
 });
 
-it("should render the Homepage for the logged in user (Heisenberg)", () => {
+it("should render the Homepage for the logged in user (Rhomennik)", () => {
   const props = {
     isLoggedIn: true,
     username: "Rhomennik"
