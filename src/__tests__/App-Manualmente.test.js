@@ -1,7 +1,6 @@
 import React from "react";
 import App from "../Components/App";
 import { mount } from "enzyme";
-import toJson from "enzyme-to-json";
 import Home from "../Components/Home";
 
 // Testes de forma manual :)
