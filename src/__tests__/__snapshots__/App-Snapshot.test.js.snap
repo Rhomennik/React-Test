@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the Homepage for the logged in user (Heisenberg) 1`] = `
+exports[`should render the Homepage for the logged in user (Rhomennik) 1`] = `
 <App
   isLoggedIn={true}
   username="Rhomennik"
